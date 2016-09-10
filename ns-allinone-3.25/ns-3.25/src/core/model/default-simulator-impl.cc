@@ -150,6 +150,7 @@ DefaultSimulatorImpl::ProcessOneEvent (void)
   next.impl->Unref ();
 
   ProcessEventsWithContext ();
+  std::cout << "processed an event" << std::endl;
 }
 
 bool 
