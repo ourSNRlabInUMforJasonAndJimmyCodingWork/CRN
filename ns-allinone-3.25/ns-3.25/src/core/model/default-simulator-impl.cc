@@ -138,7 +138,9 @@ void
 DefaultSimulatorImpl::ProcessOneEvent (void)
 {
   Scheduler::Event next = m_events->RemoveNext ();
-
+  if (next.key.m_uid == 18){
+	  std::cout << "Application Event" << std::endl;
+  }
   NS_ASSERT (next.key.m_ts >= m_currentTs);
   m_unscheduledEvents--;
 
