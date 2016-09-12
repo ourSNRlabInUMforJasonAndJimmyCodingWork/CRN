@@ -201,6 +201,7 @@ YansWifiPhy::YansWifiPhy ()
   NS_LOG_FUNCTION (this);
   m_random = CreateObject<UniformRandomVariable> ();
   m_state = CreateObject<WifiPhyStateHelper> ();
+  std::cout << "I am creating PhY instance" << std::endl;
 }
 
 YansWifiPhy::~YansWifiPhy ()
