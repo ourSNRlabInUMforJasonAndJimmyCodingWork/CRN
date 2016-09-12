@@ -50,8 +50,7 @@ NS_OBJECT_ENSURE_REGISTERED (YansWifiPhy);
 TypeId
 YansWifiPhy::GetTypeId (void)
 {
-//dfata
-	//dfdfdf
+//test one more time
   static TypeId tid = TypeId ("ns3::YansWifiPhy")
     .SetParent<WifiPhy> ()
     .SetGroupName ("Wifi")
