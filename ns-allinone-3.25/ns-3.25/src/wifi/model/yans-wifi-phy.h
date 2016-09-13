@@ -39,6 +39,8 @@
 #include "wifi-phy-standard.h"
 #include "interference-helper.h"
 
+// end of h file
+
 namespace ns3 {
 
 #define VHT_PHY 126
