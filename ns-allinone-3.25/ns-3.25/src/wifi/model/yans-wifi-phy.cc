@@ -41,6 +41,8 @@
 #include "ampdu-tag.h"
 #include <cmath>
 
+// end of include
+
 namespace ns3 {
 
 NS_LOG_COMPONENT_DEFINE ("YansWifiPhy");
