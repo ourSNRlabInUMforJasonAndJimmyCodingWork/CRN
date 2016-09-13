@@ -1469,3 +1469,5 @@ YansWifiPhy::GetMcs (uint8_t mcs) const
 }
 
 } //namespace ns3
+
+// end of file.
